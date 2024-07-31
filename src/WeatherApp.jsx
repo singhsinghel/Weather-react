@@ -1,7 +1,6 @@
 import {  useState } from "react"
 import Info from "./Info"
 import SearchBox from './SearchBox'
-import './WeatherApp.css'
 export default function WeatherApp(){
     const [isInfoBoxVisible, setInfoBoxVisible] = useState(false);
     const [isInfoBoxToggled, setInfoBoxToggled] = useState(false);
