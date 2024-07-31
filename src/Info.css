@@ -1,0 +1,23 @@
+
+.info-box {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+  opacity: 0;
+}
+.info-box.visible {
+  max-height: 20rem; 
+  opacity: 1;
+}
+.info-box.hidden {
+  max-height: 0;
+  opacity: 0;
+}
+.info-box.nottoggled{
+  max-height: 0;
+  opacity: 0;
+}
+.info-box.toggled{
+  max-height: 20rem;
+  opacity: 1;
+}
